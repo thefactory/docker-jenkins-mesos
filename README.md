@@ -10,7 +10,7 @@ Available on the Docker Index as [thefactory/jenkins-mesos](https://index.docker
 * Mesos 0.18.2
 
 ### Usage
-Launch the container with a volume passed in at `/jenkins`. For the Mesos plugin to register with the Mesos cluster, you will need to enable host  networking with `--net=host` (available in Docker 0.11+, see [announcement](http://blog.docker.io/2014/05/docker-0-11-release-candidate-for-1-0/))
+Launch the container with a volume passed in at `/jenkins`. For the Mesos plugin to register with the Mesos cluster, you will need to enable host networking with `--net=host` (available in Docker 0.11+, see [announcement](http://blog.docker.io/2014/05/docker-0-11-release-candidate-for-1-0/))
 
 Starting the container:
 
